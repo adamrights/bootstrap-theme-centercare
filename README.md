@@ -1,3 +1,9 @@
+# Centercare
+
+Centercare is using themestrap as a base for bootstrap3. With a few small changes to the main project's Gruntfile.js
+one can leave the **grunt watch** command running while the main project watches for changes to the generated bootstrap.css file. This
+way changes to the theme.less or variables.less automatically call a livereload to the dev server.
+
 # Themestrap
 
 **Themestrap** is a simple starter kit for constructing Twitter Bootstrap 3+ themes. It provides the skeleton

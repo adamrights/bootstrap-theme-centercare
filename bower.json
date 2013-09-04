@@ -1,12 +1,12 @@
 {
-  "name": "bootstrap-theme-themestrap-sample",
+  "name": "bootstrap-theme-centercare",
   "version": "0.0.1",
-  "private": true,
-  "author": "Your Name",
+  "private": false,
+  "author": "Adam Bedell",
   "main": "dist/bootstrap.css",
   "themestrap": {
-    "name": "Themestrap Sample",
-    "repo": "https://github.com/divshot/themestrap"
+    "name": "centercare",
+    "repo": "https://github.com/adamrights/bootstrap-theme-centercare"
   },
   "ignore": [
     "**/.*",
