@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-theme-centercare",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Adam Bedell",
+  "main": "dist/bootstrap.css",
+  "themestrap": {
+    "name": "centercare",
+    "repo": "https://github.com/adamrights/bootstrap-theme-centercare"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap":"3.0.0"
+  }
+}
