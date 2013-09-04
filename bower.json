@@ -5,7 +5,7 @@
   "author": "Adam Bedell",
   "main": "dist/bootstrap.css",
   "themestrap": {
-    "name": "centercare",
+    "name": "CenterCare-Theme",
     "repo": "https://github.com/adamrights/bootstrap-theme-centercare"
   },
   "ignore": [
