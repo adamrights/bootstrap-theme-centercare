@@ -1,21 +1,23 @@
 /*!
- * CenterCare Bootstrap Theme v0.1.0
+ * CenterCare Bootstrap Theme v0.0.2
+ * https://github.com/adamrights/bootstrap-theme-centercare
+ * Copyright 2013 Adam Bedell
  *
- * Copyright 2013 Your Name
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
  *
- * This theme was built using the Themestrap Bootstrap Theme Kit.
+ * This theme was bootstrapped using the Themestrap Bootstrap Theme Kit.
  * https://github.com/divshot/themestrap
+ * Licensed under the License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  */
+
+// This import will select bootstrap files in the 'less/' folder
+// before falling back to 'app/bower_components/bootstrap/less/'
 
 @import "bootstrap.less";
 
+// CSS Customizations for theme.
 
-
-
-// Add CSS Customizations to your theme here.
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,700,900,500);
+@import url(//fonts.googleapis.com/css?family=Lato:100,300,700,900,500);
 
 .box-shadow(@style) {
   -webkit-box-shadow: @style;
@@ -33,9 +35,9 @@ body {
   font-weight: 300;
 }
 
-/*pre {
-  color: white;
-}*/
+pre {
+  color: lighten(@brand-primary, 64%);
+}
 
 h1 small, .h1 small {
   font-weight: 500;
@@ -139,7 +141,7 @@ h1 small, .h1 small {
 // ---- Well
 
 .well {
-  color: white;
+  color: lighten(@brand-primary, 20%)
 }
 
 
