@@ -19,7 +19,7 @@ module.exports = (grunt) ->
         files: ['less/*.less']
         tasks: ['copy', 'less:compile', 'clean']
         options:
-          livereload: true
+          livereload: 35280
       cssmin:
         files: ['dist/css/bootstrap.css']
         tasks: ['cssmin:minify']
